@@ -27,7 +27,7 @@ const SearchPage: React.FC<SearchPageProps> = ({ initialResults }) => {
 				setSuggestions={setSuggestions}
 			/>
 			<main className="pt-20 flex flex-1 container mx-auto p-4 h-full">
-				<div className="p-8 max-w-2xl m-auto gap-4">
+				<div className="p-8 max-w-2xl mx-auto gap-4">
 					{loading ? <Loading /> : <CommentsList comments={results} />}
 				</div>
 			</main>

@@ -41,15 +41,9 @@ Typely uses tests to ensure the app functions correctly and remains reliable as 
 
 Typely uses **[Jest](https://jestjs.io/)** as the testing framework along with **[React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)** for rendering React components and interacting with the DOM.
 
-### Test Types:
-
-- **Unit Tests**: These tests verify the functionality of individual components and utilities.
-- **Integration Tests**: These tests check how different parts of the application work together, such as the interaction between components.
-- **End-to-End (E2E) Tests**: (If applicable) Tests that simulate user behavior to ensure the app functions as a whole.
-
 ## Running Tests
 
-To run the tests in Typely, follow these steps:
+To run the unit tests in Typely, follow these steps:
 
 ### 1. Install Dependencies
 
